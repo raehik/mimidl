@@ -1,0 +1,5 @@
+resolver: nightly-2022-07-04
+packages: [.]
+
+  #extra-deps:
+  #- aeson-optics-1.2@sha256:6ad1bff2472b899c68658ab4879075fa4ead5902c36437cf6d9cbbb9e6c61aef,1652

@@ -1,0 +1,286 @@
+# This file defines mimidl's understanding of mimicle's works and related
+# metadata. Things like historical works (pre-update), and metadata overrides
+# (better track naming). It should be useable offline, and be able to be partly
+# compared to and checked with actual metadata on the mimicle website.
+#
+# This is *not* a metadata cache. That should be separate. Only "custom"
+# metadata belongs here.
+
+# TODO Amagami uses awkward Unicode, separate diacritic mark >:(
+
+- nid: VmztIQgt
+  id:  TODO
+  release:
+    tag: ゲーム準拠呼称 update
+    release_date: 2022-08-18
+    name: ASMRボイスドラマ アマガミ Vol.1 桜井梨穂子編
+    track_renamings:
+
+    - match: ソウダン 梨穂子から呼び出された
+      name:  ソウダン 梨穂子から呼び出された
+      group: tracks-アニメ準拠呼称版
+    - match: モクロミ 最強の組み合わせを思いついた
+      name:  モクロミ 最強の組み合わせを思いついた
+      group: tracks-アニメ準拠呼称版
+    - match: ジッセン 【ASMR】背後から梨穂子の声が……
+      name:  ジッセン 【ASMR】背後から梨穂子の声が……
+      group: tracks-アニメ準拠呼称版
+    - match: クイイジ 梨穂子のお腹が気になる
+      name:  クイイジ 梨穂子のお腹が気になる
+      group: tracks-アニメ準拠呼称版
+    - match: フッキン 【ASMR】ダイエットには筋トレだ
+      name:  フッキン 【ASMR】ダイエットには筋トレだ
+      group: tracks-アニメ準拠呼称版
+    - match: ゴホウビ 頑張った梨穂子とお菓子を食べよう
+      name:  ゴホウビ 頑張った梨穂子とお菓子を食べよう
+      group: tracks-アニメ準拠呼称版
+    - match: オドロキ 【ASMR】梨穂子と一緒にポリポリと
+      name:  オドロキ 【ASMR】梨穂子と一緒にポリポリと
+      group: tracks-アニメ準拠呼称版
+    - match: ハイボク 梨穂子は食べ物にはいつだって真剣なんだ
+      name:  ハイボク 梨穂子は食べ物にはいつだって真剣なんだ
+      group: tracks-アニメ準拠呼称版
+    - match: ホウコク 梨穂子から伝えられた結果は……
+      name:  ホウコク 梨穂子から伝えられた結果は……
+      group: tracks-アニメ準拠呼称版
+    - match: アジワイ 【ASMR】美味しそうに食べる梨穂子はかわいいなあ
+      name:  アジワイ 【ASMR】美味しそうに食べる梨穂子はかわいいなあ
+      group: tracks-アニメ準拠呼称版
+    - match: カンシャ 梨穂子、なんだかとっても嬉しそうだ
+      name:  カンシャ 梨穂子、なんだかとっても嬉しそうだ
+      group: tracks-アニメ準拠呼称版
+    - match: ヒキカエ 食べすぎには注意しなきゃな
+      name:  ヒキカエ 食べすぎには注意しなきゃな
+      group: tracks-アニメ準拠呼称版
+    - match: コウドウ 【ASMR】梨穂子の顔が目の前に……
+      name:  コウドウ 【ASMR】梨穂子の顔が目の前に……
+      group: tracks-アニメ準拠呼称版
+
+    - match: Gソウダン 梨穂子から呼び出された
+      name:  Gソウダン 梨穂子から呼び出された
+      group: tracks-ゲーム準拠呼称版
+    - match: Gモクロミ 最強の組み合わせを思いついた
+      name:  Gモクロミ 最強の組み合わせを思いついた
+      group: tracks-ゲーム準拠呼称版
+    - match: Gジッセン 【ASMR】背後から梨穂子の声が……
+      name:  Gジッセン 【ASMR】背後から梨穂子の声が……
+      group: tracks-ゲーム準拠呼称版
+    - match: Gクイイジ 梨穂子のお腹が気になる
+      name:  Gクイイジ 梨穂子のお腹が気になる
+      group: tracks-ゲーム準拠呼称版
+    - match: Gフッキン 【ASMR】ダイエットには筋トレだ
+      name:  Gフッキン 【ASMR】ダイエットには筋トレだ
+      group: tracks-ゲーム準拠呼称版
+    - match: Gゴホウビ 頑張った梨穂子とお菓子を食べよう
+      name:  Gゴホウビ 頑張った梨穂子とお菓子を食べよう
+      group: tracks-ゲーム準拠呼称版
+    - match: Gオドロキ 【ASMR】梨穂子と一緒にポリポリと
+      name:  Gオドロキ 【ASMR】梨穂子と一緒にポリポリと
+      group: tracks-ゲーム準拠呼称版
+    - match: Gハイボク 梨穂子は食べ物にはいつだって真剣なんだ
+      name:  Gハイボク 梨穂子は食べ物にはいつだって真剣なんだ
+      group: tracks-ゲーム準拠呼称版
+    - match: Gホウコク 梨穂子から伝えられた結果は……
+      name:  Gホウコク 梨穂子から伝えられた結果は……
+      group: tracks-ゲーム準拠呼称版
+    - match: Gアジワイ 【ASMR】美味しそうに食べる梨穂子はかわいいなあ
+      name:  Gアジワイ 【ASMR】美味しそうに食べる梨穂子はかわいいなあ
+      group: tracks-ゲーム準拠呼称版
+    - match: Gカンシャ 梨穂子、なんだかとっても嬉しそうだ
+      name:  Gカンシャ 梨穂子、なんだかとっても嬉しそうだ
+      group: tracks-ゲーム準拠呼称版
+    - match: Gヒキカエ 食べすぎには注意しなきゃな
+      name:  Gヒキカエ 食べすぎには注意しなきゃな
+      group: tracks-ゲーム準拠呼称版
+    - match: Gコウドウ 【ASMR】梨穂子の顔が目の前に……
+      name:  Gコウドウ 【ASMR】梨穂子の顔が目の前に……
+      group: tracks-ゲーム準拠呼称版
+
+  previous_releases:
+  - tag: first release (no ゲーム準拠呼称 trackset)
+    release_date: 2022-05-15
+    name: ASMRボイスドラマ アマガミ Vol.1 桜井梨穂子編
+
+- nid: BtbF7DCZ
+  id: TODO
+  release:
+    tag: ゲーム準拠呼称 update
+    release_date: 2022-08-18
+    name: ASMRボイスドラマ アマガミ Vol.2 森島はるか編
+    track_renamings:
+
+    - match: フイウチ 【ASMR】枕元で森島先輩の声がする……
+      name:  フイウチ 【ASMR】枕元で森島先輩の声がする……
+      group: tracks-アニメ準拠呼称版
+    - match: オサソイ 薫がバイトに誘ってきたぞ
+      name:  オサソイ 薫がバイトに誘ってきたぞ
+      group: tracks-アニメ準拠呼称版
+    - match: シゴトギ バイト中にまさかの出会い！？
+      name:  シゴトギ バイト中にまさかの出会い！？
+      group: tracks-アニメ準拠呼称版
+    - match: ホウヨウ 【ASMR】森島先輩にバレませんように……
+      name:  ホウヨウ 【ASMR】森島先輩にバレませんように……
+      group: tracks-アニメ準拠呼称版
+    - match: セツメイ 先輩に事情を話さないと！
+      name:  セツメイ 先輩に事情を話さないと！
+      group: tracks-アニメ準拠呼称版
+    - match: ヒザウエ 【ASMR】森島先輩による恐怖のお仕置きが！
+      name:  ヒザウエ 【ASMR】森島先輩による恐怖のお仕置きが！
+      group: tracks-アニメ準拠呼称版
+    - match: イリグチ 今日は森島先輩とスパデートだ！
+      name:  イリグチ 今日は森島先輩とスパデートだ！
+      group: tracks-アニメ準拠呼称版
+    - match: クギヅケ 水着姿の森島先輩が魅力的すぎて……
+      name:  クギヅケ 水着姿の森島先輩が魅力的すぎて……
+      group: tracks-アニメ準拠呼称版
+    - match: カシキリ 森島先輩、すごく喜んでくれてるみたい
+      name:  カシキリ 森島先輩、すごく喜んでくれてるみたい
+      group: tracks-アニメ準拠呼称版
+    - match: コンヨク 森島先輩とつぼ湯を堪能するぞ！
+      name:  コンヨク 森島先輩とつぼ湯を堪能するぞ！
+      group: tracks-アニメ準拠呼称版
+    - match: ムシブロ 【ASMR】森島先輩の汗がポタポタと！
+      name:  ムシブロ 【ASMR】森島先輩の汗がポタポタと！
+      group: tracks-アニメ準拠呼称版
+    - match: ワガママ 【ASMR】積極的な森島先輩につい……
+      name:  ワガママ 【ASMR】積極的な森島先輩につい……
+      group: tracks-アニメ準拠呼称版
+    - match: カンパイ 森島先輩と至福のひととき
+      name:  カンパイ 森島先輩と至福のひととき
+      group: tracks-アニメ準拠呼称版
+
+    - match: Gフイウチ 【ASMR】枕元で森島先輩の声がする……
+      name:  Gフイウチ 【ASMR】枕元で森島先輩の声がする……
+      group: tracks-ゲーム準拠呼称版
+    - match: Gオサソイ 薫がバイトに誘ってきたぞ
+      name:  Gオサソイ 薫がバイトに誘ってきたぞ
+      group: tracks-ゲーム準拠呼称版
+    - match: Gシゴトギ バイト中にまさかの出会い！？
+      name:  Gシゴトギ バイト中にまさかの出会い！？
+      group: tracks-ゲーム準拠呼称版
+    - match: Gホウヨウ 【ASMR】森島先輩にバレませんように……
+      name:  Gホウヨウ 【ASMR】森島先輩にバレませんように……
+      group: tracks-ゲーム準拠呼称版
+    - match: Gセツメイ 先輩に事情を話さないと！
+      name:  Gセツメイ 先輩に事情を話さないと！
+      group: tracks-ゲーム準拠呼称版
+    - match: Gヒザウエ 【ASMR】森島先輩による恐怖のお仕置きが！
+      name:  Gヒザウエ 【ASMR】森島先輩による恐怖のお仕置きが！
+      group: tracks-ゲーム準拠呼称版
+    - match: Gイリグチ 今日は森島先輩とスパデートだ！
+      name:  Gイリグチ 今日は森島先輩とスパデートだ！
+      group: tracks-ゲーム準拠呼称版
+    - match: Gクギヅケ 水着姿の森島先輩が魅力的すぎて……
+      name:  Gクギヅケ 水着姿の森島先輩が魅力的すぎて……
+      group: tracks-ゲーム準拠呼称版
+    - match: Gカシキリ 森島先輩、すごく喜んでくれてるみたい
+      name:  Gカシキリ 森島先輩、すごく喜んでくれてるみたい
+      group: tracks-ゲーム準拠呼称版
+    - match: Gコンヨク 森島先輩とつぼ湯を堪能するぞ！
+      name:  Gコンヨク 森島先輩とつぼ湯を堪能するぞ！
+      group: tracks-ゲーム準拠呼称版
+    - match: Gムシブロ 【ASMR】森島先輩の汗がポタポタと！
+      name:  Gムシブロ 【ASMR】森島先輩の汗がポタポタと！
+      group: tracks-ゲーム準拠呼称版
+    - match: Gワガママ 【ASMR】積極的な森島先輩につい……
+      name:  Gワガママ 【ASMR】積極的な森島先輩につい……
+      group: tracks-ゲーム準拠呼称版
+    - match: Gカンパイ 森島先輩と至福のひととき
+      name:  Gカンパイ 森島先輩と至福のひととき
+      group: tracks-ゲーム準拠呼称版
+
+  previous_releases:
+  - tag: first release (no ゲーム準拠呼称 trackset)
+    release_date: 2022-06-23
+    name: ASMRボイスドラマ アマガミ Vol.2 森島はるか編
+
+- nid: roJqm5vB
+  id: TODO
+  release:
+    name: ASMRボイスドラマ アマガミ Vol.3 中多紗江編
+    release_date: 2022-07-21
+  previous_releases: []
+
+- nid: 7sbBXKYb
+  id: TODO
+  release:
+    name: ASMRボイスドラマ アマガミ Vol.4 七咲逢
+    release_date: 2022-09-16
+    tag: includes ゲーム準拠呼称 tracks
+    track_renamings:
+
+    - match: チョウリ 【ASMR】七咲と朝食を作るぞ
+      name:  チョウリ 【ASMR】七咲と朝食を作るぞ
+      group: tracks-アニメ準拠呼称版
+    - match: ショクジ ふたりで朝食を食べよう
+      name:  ショクジ ふたりで朝食を食べよう
+      group: tracks-アニメ準拠呼称版
+    - match: オトドケ 忘れ物のお弁当を届けに行こう
+      name:  オトドケ 忘れ物のお弁当を届けに行こう
+      group: tracks-アニメ準拠呼称版
+    - match: ミッシツ 更衣室に連れ込まれてしまった…
+      name:  ミッシツ 更衣室に連れ込まれてしまった…
+      group: tracks-アニメ準拠呼称版
+    - match: センプク 【ASMR】塚原先輩に見つかるっ…!?
+      name:  センプク 【ASMR】塚原先輩に見つかるっ…!?
+      group: tracks-アニメ準拠呼称版
+    - match: シタタル 服が濡れてしまった…拭かないと
+      name:  シタタル 服が濡れてしまった…拭かないと
+      group: tracks-アニメ準拠呼称版
+    - match: ソウグウ デート中に塚原先輩とばったり
+      name:  ソウグウ デート中に塚原先輩とばったり
+      group: tracks-アニメ準拠呼称版
+    - match: コウエン 七咲の悩みを受け止めるぞ
+      name:  コウエン 七咲の悩みを受け止めるぞ
+      group: tracks-アニメ準拠呼称版
+    - match: ブランコ 【ASMR】ふたりでお風呂ごっこ!?
+      name:  ブランコ 【ASMR】ふたりでお風呂ごっこ!?
+      group: tracks-アニメ準拠呼称版
+    - match: ブッケン ふたりで住む新居を探そう！
+      name:  ブッケン ふたりで住む新居を探そう！
+      group: tracks-アニメ準拠呼称版
+
+    - match: G チョウリ 【ASMR】七咲と朝食を作るぞ
+      name:  G チョウリ 【ASMR】七咲と朝食を作るぞ
+      group: tracks-ゲーム準拠呼称版
+    - match: G ショクジ ふたりで朝食を食べよう
+      name:  G ショクジ ふたりで朝食を食べよう
+      group: tracks-ゲーム準拠呼称版
+    - match: G オトドケ 忘れ物のお弁当を届けに行こう
+      name:  G オトドケ 忘れ物のお弁当を届けに行こう
+      group: tracks-ゲーム準拠呼称版
+    - match: G ミッシツ 更衣室に連れ込まれてしまった…
+      name:  G ミッシツ 更衣室に連れ込まれてしまった…
+      group: tracks-ゲーム準拠呼称版
+    - match: G センプク 【ASMR】塚原先輩に見つかるっ…!?
+      name:  G センプク 【ASMR】塚原先輩に見つかるっ…!?
+      group: tracks-ゲーム準拠呼称版
+    - match: G シタタル 服が濡れてしまった…拭かないと
+      name:  G シタタル 服が濡れてしまった…拭かないと
+      group: tracks-ゲーム準拠呼称版
+    - match: G ソウグウ デート中に塚原先輩とばったり
+      name:  G ソウグウ デート中に塚原先輩とばったり
+      group: tracks-ゲーム準拠呼称版
+    - match: G コウエン 七咲の悩みを受け止めるぞ
+      name:  G コウエン 七咲の悩みを受け止めるぞ
+      group: tracks-ゲーム準拠呼称版
+    - match: G ブランコ 【ASMR】ふたりでお風呂ごっこ!?
+      name:  G ブランコ 【ASMR】ふたりでお風呂ごっこ!?
+      group: tracks-ゲーム準拠呼称版
+    - match: G ブッケン ふたりで住む新居を探そう！
+      name:  G ブッケン ふたりで住む新居を探そう！
+      group: tracks-ゲーム準拠呼称版
+
+  previous_releases: []
+
+- nid: t9v8hS6N
+  id: TODO
+  release:
+    name: ASMRボイスドラマ 黒先輩と黒屋敷の闇に迷わない
+  previous_releases: []
+
+- nid: SVZrYezR
+  id: TODO
+  release:
+    name: ASMRボイスドラマ アマガミ Vol.5 棚町薫編
+  previous_releases: []

@@ -1,0 +1,132 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.35.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           mimidl
+version:        0.1.0
+synopsis:       TODO
+description:    Please see README.md.
+category:       TODO
+homepage:       https://github.com/raehik/mimidl#readme
+bug-reports:    https://github.com/raehik/mimidl/issues
+author:         Ben Orchard
+maintainer:     Ben Orchard <thefirstmuffinman@gmail.com>
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+tested-with:
+    GHC ==9.2.2
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+source-repository head
+  type: git
+  location: https://github.com/raehik/mimidl
+
+library
+  exposed-modules:
+      HGCloud.Firebase
+      HGCloud.Firebase.Authentication
+      HGCloud.Util.Json
+      Mimidl.Download.Metadata
+      Mimidl.Download.Work
+      Mimidl.Library.Internal.Json
+      Mimidl.Library.Meta
+      Mimidl.Library.Monad
+      Mimidl.Library.Programs
+      Mimidl.Mimicle.Api.Impl.Log
+      Mimidl.Mimicle.Api.Impl.MimicleCom
+      Mimidl.Mimicle.Api.Impl.MimicleCom.Anon
+      Mimidl.Mimicle.Api.Impl.MimicleCom.Authd
+      Mimidl.Mimicle.Api.Impl.MimicleCom.Common
+      Mimidl.Mimicle.Api.Model
+      Mimidl.Mimicle.Types
+      Mimidl.Mimicle.Types.Json
+      Orphans
+      Run
+      Secret
+      Util.Req
+      Util.Text
+  other-modules:
+      Paths_mimidl
+  hs-source-dirs:
+      src
+  default-extensions:
+      LambdaCase
+      ExplicitNamespaces
+      NoStarIsType
+      DerivingStrategies
+      DerivingVia
+      DeriveAnyClass
+      GADTs
+      RoleAnnotations
+      DefaultSignatures
+      TypeFamilies
+      DataKinds
+      MagicHash
+  ghc-options: -Wall
+  build-depends:
+      aeson
+    , base
+    , bytestring
+    , containers
+    , directory
+    , exceptions
+    , http-api-data
+    , modern-uri
+    , mtl
+    , path
+    , polysemy
+    , prettyprinter
+    , req
+    , text
+    , world-peace
+    , yaml
+  default-language: GHC2021
+
+executable mimidl
+  main-is: Main.hs
+  other-modules:
+      Mimidl.Cli.Parse
+      Mimidl.Cli.Run
+      Mimidl.Config
+      Paths_mimidl
+  hs-source-dirs:
+      app
+  default-extensions:
+      LambdaCase
+      ExplicitNamespaces
+      NoStarIsType
+      DerivingStrategies
+      DerivingVia
+      DeriveAnyClass
+      GADTs
+      RoleAnnotations
+      DefaultSignatures
+      TypeFamilies
+      DataKinds
+      MagicHash
+  ghc-options: -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      aeson
+    , base
+    , bytestring
+    , containers
+    , directory
+    , exceptions
+    , http-api-data
+    , mimidl
+    , modern-uri
+    , mtl
+    , optparse-applicative
+    , path
+    , polysemy
+    , prettyprinter
+    , req
+    , text
+    , world-peace
+    , yaml
+  default-language: GHC2021

@@ -1,0 +1,99 @@
+name: mimidl
+version: 0.1.0
+synopsis: TODO
+description: Please see README.md.
+extra-source-files:
+- README.md
+- CHANGELOG.md
+category: TODO
+tested-with: GHC ==9.2.2
+license: MIT
+license-file: LICENSE
+
+github: raehik/mimidl
+maintainer: Ben Orchard <thefirstmuffinman@gmail.com>
+author: Ben Orchard
+
+# raehik's extensions (GHC 9.2; last updated: 2022-10-04)
+language: GHC2021
+default-extensions:
+# syntax that should be default
+- LambdaCase
+- ExplicitNamespaces # 7.6
+- NoStarIsType
+
+## deriving-related
+- DerivingStrategies # 8.2
+- DerivingVia # 8.6
+- DeriveAnyClass
+
+# features that should be default
+- GADTs
+- RoleAnnotations # 7.8
+
+# other features
+- DefaultSignatures
+- TypeFamilies
+- DataKinds
+
+# other syntax
+- MagicHash
+
+# useful extensions to know about, but which should be specified on-demand
+#
+# UndecidableInstances:
+#   required for type class wizardry
+#   generally only enable if you were expecting to & compilation fails without
+# AllowAmbiguousTypes:
+#   often goes hand in hand with TypeApplications-heavy code
+#   enabling on demand brings attention to the sort of functions to expect
+# StarIsType:
+#   may need to enable if you're working with old code that uses `Int :: *`
+# CPP, TemplateHaskell: big scary extensions, only enable when using
+#
+# possible additions:
+#
+# OverloadedStrings:
+#   incredibly useful but can force unexpected type annotations
+#   I prefer enabling only in modules that deal with string-likes
+# FunctionalDependencies:
+#   less common extension but remains useful
+# PatternSynonyms:
+#   amazing but huge, and without enabling you can still use (just not define)
+
+# TODO
+dependencies:
+- base
+- req
+- http-api-data
+- modern-uri
+- aeson
+- text
+- bytestring
+- directory
+- polysemy
+- world-peace
+- prettyprinter
+- yaml
+- path
+- exceptions
+- mtl
+- containers
+
+ghc-options:
+- -Wall
+
+library:
+  source-dirs: src
+
+executables:
+  mimidl:
+    source-dirs: app
+    main: Main.hs
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - mimidl
+    - optparse-applicative
