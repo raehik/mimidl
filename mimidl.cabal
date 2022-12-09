@@ -46,8 +46,6 @@ library
       Mimidl.Mimicle.Types
       Mimidl.Mimicle.Types.Json
       Orphans
-      Run
-      Secret
       Util.Req
       Util.Text
   other-modules:
